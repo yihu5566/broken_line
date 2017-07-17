@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="coupon_raise">#767676</color>
+    <color name="black_text">#6D6D6D</color>
+    <color name="red">#ff0000</color>
+    <color name="deep_red">#C04824</color>
+    <color name="blue">#6DD4FD</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="gray">#F6F6F6</color>
+    <color name="prange">#FA7234</color>
+    <color name="title_blue">#0C6EB9</color>
+    <color name="dead_blue">#47A8E1</color>
+    <color name="dead_orange">#E9A044</color>
+    <color name="all_title">#DC3A0B</color>
+    <color name="gray_line">#F7F7F7</color>
+    <color name="text_color">#949494</color>
+    <color name="auth_code_button_blue">#6DD4FD</color>
+    <color name="gray_tv">#C9C9C9</color>
+    <color name="gray_text">#B4B4B4</color>
+    <color name="gray_home_title">#838383</color>
+    <!-- line_chart -->
+    <color name="txt_blue">#FF007CB0</color>
+    <color name="txt_gray">#FF575756</color>
+    <color name="txt_orange">#FFEB6100</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="orange">#FFE84E0E</color>
+    <color name="transparent">#000000</color>
+    <color name="bg">#FFF39200</color>
+    <color name="lightblue">#FF007AA2</color>
+    <color name="lightorange">#FFACBA00</color>
+    <color name="transparentdarkgray">#CC292929</color>
+    <color name="transparentgray">#CC666666</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="light_gray">#87CEEB</color>
+    <color name="orange_red">#613030</color>
+    <color name="whiteGray">#ffC9CACB</color>
+    <color name="nomalGray">#838B83</color>
+    <color name="light_orange">#FFFCBA00</color>
+    <color name="coffee">#622f1b</color>
+    <color name="black2">#80000000</color>
+    <color name="click_color">#2b72d6</color>
+    <color name="buttom_top">#1e1e1e</color>
+    <color name="buttom_centre">#303030</color>
+    <color name="buttom_buttom">#000000</color>
+    <color name="shudu_light">#64c6d4ef</color>
+    <color name="shudu_dark">#6456648f</color>
+    <color name="area">#E3F5FF</color>
+    <color name="coupon_titile_line">#EAEAEA</color>
+    <color name="text_coupon">#747474</color>
+    <color name="text_past_coupon">#B0B0B0</color>
+    <color name="coupon_rule">#6A6A6A</color>
+     
+
+</resources>

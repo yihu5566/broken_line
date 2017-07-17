@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">折线图</string>
+    <string name="wait_dialog_hint">加载中,请稍后...</string>
+    <string name="network_is_futility">请检查网络</string>
+    <string name="the_network_is_dead">网络不给力，请检查您的网络状态后重试。</string>
+    <string name="leave">离开</string>
+    <string name="no_leave">再等下</string>
+    <string name="login_username">请输入手机号</string>
+    <string name="login_password">请输入密码</string>
+    <string name="input_auth_code">请输入验证码</string>
+    <string name="gain_auth_code">获取验证码</string>
+    <string name="input_login_psw">请输入密码</string>
+    <string name="regist_psw_hit">密码使用6-16位，至少包含字母、数字、符号任意两种</string>
+    <string name="findpwd_phone">请输入手机号</string>
+    <string name="findpwd_phone_verfycode">请输入验证码</string>
+    <string name="findpwd_newpwd">请输入新密码</string>
+    <string name="re_get_phone_vertifycode">重新发送（120s）</string>
+    <string name="input_right_phone">请输入正确的手机号码</string>
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+    <string name="inputpwd_wrong">密码错误，您还有N次输入机会</string>
+    <string name="exceed_inputpwd">您的账户已锁定，请于明日0时后重新登录</string>
+    <string name="have_get_phone_autocode">短信验证码已发送至您的手机</string>
+    <string name="new_pwd_set_access">新密码设置成功!</string>
+    <string name="input_chose_phone">推荐人手机号(选填)</string>
+    <string name="buy">立即购买</string>
+    <string name="yidingtou_hit">今日剩余可购买债权份额</string>
+    <string name="regist">注册</string>
+    <string name="change_gesture_pwd">修改手势密码，需重新登录</string>
+    <string name="acount">账户</string>
+    <string name="username">用户名:</string>
+    <string name="top">充值</string>
+    <string name="draw">充值</string>
+    <string name="view_details">查看详情</string>
+    <string name="success_registe">您已成功注册!</string>
+    <string name="modify_phone">修改成功,请重新登录!</string>
+    <string name="input_redeem_shares">请输入赎回份额!</string>
+    
+    <!-- 更多fragment -->
+    <string name="version">当前版本V1.0.0.0</string>
+    <string name="suggestion_feedback">意见反馈</string>
+    <string name="invite_friends">好友邀请</string>
+    <!-- 赎回查询fragment -->
+    <string name="redeem_shares">赎回份额</string>
+    <string name="to_book_value">实际到账金额</string>
+    <string name="procedure_fee">手续费</string>
+    <string name="no_redeem_record">暂无赎回记录!</string>
+    <!-- 交易记录 -->
+    <string name="all_trade">全部</string>
+    <string name="pay">购买</string>
+    <string name="recharge">充值</string>
+    <string name="redeem">赎回</string>
+    <string name="withdraw">提现</string>
+    <string name="no_trade_record">暂无交易记录!</string>
+    <!-- 收益查询 -->
+    <string name="income_count">累计收益</string>
+    <string name="yesterday_income">昨日获得收益</string>
+    <string name="today_expect_income">今日预期收益</string>
+    <string name="income_record">收益记录</string>
+    <string name="no_income_record">暂无收益记录!</string>
+    <!-- 账户管理 -->
+    <string name="real_name">实名认证</string>
+    <string name="login_pwd">登录密码</string>
+    <string name="phone_num">手机号码</string>
+    <string name="funds_trusteeship">资金托管</string>
+    <string name="gestures_password">手势密码</string>
+    <string name="logout">退出登录</string>
+    <string name="open_account">已开户</string>
+    <string name="not_open_account">未开户</string>
+    <string name="if_change_gesture_pwd_dialog">修改手势密码，需重新登录</string>
+    <!-- 宜定投项目 -->
+    <string name="current_bonds_shares">当前可赎回份额</string>
+    <string name="current_allincome">当前持有收益总额</string>
+    <string name="callable_bonds">赎回债权</string>
+    <string name="purchased_bond">购买债权</string>
+    <string name="compound_annual_yield">7日年化收益率趋势图</string>
+    <string name="sevendays_compound_annual_yield">7日年化收益率趋势图</string>
+    <string name="want_to_redeem">我要赎回</string>
+    <string name="redemption_of_auditing">债权赎回审核中......</string>
+    <string name="redemption_of_auditing_info"><![CDATA[您的债权赎回已经提交，稍后可在“赎回审核”中\n查询结果,审核通过后,您的可用余额将增加,\n可至“账户中心”查看]]></string>
+    <string name="tv_alert_one"><![CDATA[\t\t您当前赎回的份额为]]></string>
+    <string name="tv_alert_dot">。</string>
+    <string name="tv_alert_two">其中，有</string>
+    <string name="tv_alert_three">债券持有时</string>
+    <string name="tv_alert_four">间未满90天，</string>
+    <string name="tv_alert_five">系统将收取</string>
+    <string name="tv_alert_six">元管理</string>
+    <string name="tv_alert_seven">费。</string>
+    <string name="tv_alert_eight">利息</string>
+    <string name="tv_alert_nine">为</string>
+    <string name="tv_alert_ten">元。</string>
+    <string name="debt_limit">单人购买债权限额是300，000</string>
+    <!-- 加息券 -->
+    <string name="used_coupon">已使用</string>
+    <string name="usable_coupon">可使用</string>
+    <string name="past_coupon">已过期</string>
+    <string name="coupon_rules">加息规则</string>
+    <string name="no_coupon_data">暂无相关数据</string>
+    <string name="coupon_rules_content">
+        <![CDATA[1.加息券在规定日期使用,每次只能使用一张,不可叠加使用;\n2.加息券当日使用,当日生效,一旦生效,\t立刻进入加息期。加息期内每日获得年化收益率为:当日预期年化收益率+加息收益率;\n3.加息期内债权不可赎回,加息期结束后债权自动转为活期债权;\n4.每张加息券只给单笔债权加息;\n5.债权加息之前的投资收益也需要等到加息期结束后方可取出。]]>
+        </string>
+   <string name="raise_success">加息成功!</string>
+   <string name="raised_coupon">可在已使用加息券列表中查看</string>
+   <string name="raised_coupon_share">加息债权份额</string>
+   <string name="freeze_share">锁定债权份额</string>
+   <string name="no_use_coupon">没有可加息债权，请先购买债权</string>
+   
+    <!-- listview的下拉刷新 -->
+    <string name="refreshing">正在刷新。。。。。。</string>
+    <!-- 修改登录密码 -->
+    <string name="input_old_pwd">请输入旧密码</string>
+    <string name="input_old_pwd_wrong">旧密码错误，请重新输入</string>
+    <string name="input_new_pwd">请输入新密码</string>
+    <string name="input_new_pwd_wrong_type">密码长度6-16，至少包含数字、字母、符号组合任意两种</string>
+    <string name="confirm_new_pwd">请确认新密码</string>
+    <string name="confirm_change">确认修改</string>
+    <string name="confirm_change_wrong">两次输入新密码不一致</string>
+    <string name="input_pwd_again">请再次输入新密码</string>
+    <string name="change_success_of_login_pwd">登录密码修改成功!</string>
+
+    <!-- 修改手机号码 -->
+    <string name="next">下一步</string>
+    <string name="input_new_phone">请输入新手机号</string>
+    <string name="send_success_of_phone_verifycode">验证码已发送至您的手机</string>
+    <string name="change_success_of_phone_pwd">修改成功   请重新登录</string>
+
+    <!-- 意见反馈 -->
+    <string name="feedback_information">请留下您的宝贵意见</string>
+    <string name="contact_type">请您留下联系方式QQ/邮箱/手机</string>
+    <string name="wx">官方微信</string>
+    <string name="service_tel">客服电话</string>
+    <string name="service_time">客服工作时间</string>
+    <string name="input_opinion">请输入您的反馈意见</string>
+    <string name="input_contact_type">请留下您的联系方式</string>
+    <string name="commit_success">反馈已成功提交，感谢您对宜定投的支持!</string>
+
+    <!-- 产品详情 -->
+    <string name="residual_share">今日剩余可购买债权份额</string>
+    <string name="remaining_undrawn">个人剩余可购额度</string>
+    <string name="compound_annual_return_today">今日复合年化收益率</string>
+    <string name="expected_return">当日预期收益</string>
+    <string name="payment_amount">支付金额</string>
+    <string name="account_balance">账户余额</string>
+    <string name="share_to_buy_bonds">购买债权份额</string>
+    <string name="input_buy_bonds">请输入购买份额</string>
+    <string name="to_buy_immediately">立即买入</string>
+    <!-- 充值 -->
+    <string name="recharge_amount">充值金额</string>
+    <string name="input_recharge_amount">请输入充值金额</string>
+
+    <!-- 手势密码 -->
+
+    <!-- Gesture code starting -->
+    <string name="setup_gesture_code">设置手势密码</string>
+    <string name="setup_gesture_pattern">绘制解锁图案</string>
+    <string name="setup_gesture_pattern_again">再次绘制解锁图案</string>
+    <string name="forget_gesture_code">忘记手势密码</string>
+    <string name="use_other_account_login">用其他账号登录</string>
+    <string name="set_gesture_pattern">请绘制手势密码</string>
+    <string name="set_gesture_pattern_reason">手势密码用于保护您的隐私信息</string>
+    <string name="reset_gesture_code">重新设置手势密码</string>
+    <string name="change_account">切换账号登录</string>
+    
+    <!-- 实名认证 -->
+    <string name="inputname">请输入真实姓名</string>
+    <string name="inputidcard">请输入身份证号码</string>
+    <!-- line_chart-->
+    <string name="hello_world">版本</string>
+    <string name="menu_settings">截图</string>
+	<string name="menu_ch">重新绘制</string>
+</resources>
