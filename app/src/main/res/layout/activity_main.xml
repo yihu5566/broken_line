@@ -16,4 +16,10 @@
         android:layout_centerInParent="true"
         android:background="#4A7BF4" />
 
+    <TextView
+        android:id="@+id/tv_demo"
+        android:text="测试"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>

@@ -2,5 +2,9 @@
     {
         "merged": "/Users/lxrent/Downloads/linechart1/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
         "source": "/Users/lxrent/Downloads/linechart1/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lxrent/Documents/gitCamera/broken_line/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/lxrent/Documents/gitCamera/broken_line/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     }
 ]

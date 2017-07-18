@@ -27,27 +27,27 @@ public class linechartview extends View {
 	private int height;
 	private int left;
 	private int bottom;
-	// µãµÄ×ø±ê
+	// ç‚¹çš„åæ ‡
 	private List<Map<String, Float>> mListPoint;
 
-	// Ô¶µã×ø±ê
+	// è¿œç‚¹åæ ‡
 	private int centrex;
 	private int centrey;
-	// xºÍyÖá³¤¶È
+	// xå’Œyè½´é•¿åº¦
 	private int xlong;
 	private int ylong;
-	// ºá×ø±êºÍ×İ×ø±êµÄÊı×é
+	// æ¨ªåæ ‡å’Œçºµåæ ‡çš„æ•°ç»„
 	private int ynumber = 4;
 	private String[] xnumber = new String[] { "1", "2", "3", "4" };
-	// ¼ä¸ôÓ¦¸Ã¸ù¾İ×ø±ê¸öÊıºÍ×ø±êÖá³¤¶ÈÀ´È·¶¨
+	// é—´éš”åº”è¯¥æ ¹æ®åæ ‡ä¸ªæ•°å’Œåæ ‡è½´é•¿åº¦æ¥ç¡®å®š
 	private int jianjux;
 	private int jianjuy;
-	// »æÍ¼ÓÃ¼ä¾à
+	// ç»˜å›¾ç”¨é—´è·
 	private int drawx;
-	// ÊÇ·ñÏÔÊ¾ĞéÏß±í¸ñ
+	// æ˜¯å¦æ˜¾ç¤ºè™šçº¿è¡¨æ ¼
 	private Boolean isGone = true;
 
-	// ×ø±êÖµ¶ÔÓ¦ÔÚÍ¼±íÖĞµÄÎ»ÖÃ
+	// åæ ‡å€¼å¯¹åº”åœ¨å›¾è¡¨ä¸­çš„ä½ç½®
 	private float maSxy;
 	private float scale;
 	private float comparingrule;
@@ -97,7 +97,7 @@ public class linechartview extends View {
 	private void init() {
 		paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		textpaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-		// ĞéÏß±Ê
+		// è™šçº¿ç¬”
 		hiddenpaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		canvas = new Canvas();
 	}
@@ -119,7 +119,7 @@ public class linechartview extends View {
 
 	}
 
-	// ¸³Öµ
+	// èµ‹å€¼
 	private void initDate() {
 
 		centrex = 50;
@@ -130,11 +130,11 @@ public class linechartview extends View {
 		jianjux = xlong / xnumber.length;
 		jianjuy = ylong / ynumber;
 		drawx = xlong / xnumber.length;
-		//±ÈÀı³ß
+		//æ¯”ä¾‹å°º
 		if (maSxy!=0) {
-			
-			comparingrule = ylong/maSxy; 
-			
+
+			comparingrule = ylong/maSxy;
+
 		}
 	}
 
@@ -142,22 +142,22 @@ public class linechartview extends View {
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
 		if (maSxy != 0) {
-			
+
 			scale = maSxy/(float)ynumber;
 
 		}
 		// canvas.drawText("ceshi", centrex + jianjux, centrey - 50, textpaint);
 
-		// »­×ø±êxºÍy
+		// ç”»åæ ‡xå’Œy
 		canvas.drawLine(centrex, centrey, centrex + xlong, centrey, paint);
 		canvas.drawLine(centrex, centrey, centrex, centrey - ylong, paint);
 
-		// »­×ø±êxµÄ×Ö
+		// ç”»åæ ‡xçš„å­—
 		for (int i = 0; i < xnumber.length; i++) {
 			canvas.drawText(xnumber[i] + "", centrex + jianjux - 10,
 					centrey + 20, textpaint);
 			if (isGone) {
-				// »­ĞéÏß
+				// ç”»è™šçº¿
 				Path path = new Path();
 				path.moveTo(centrex + jianjux, centrey - ylong);
 				path.lineTo(centrex + jianjux, centrey);
@@ -172,20 +172,20 @@ public class linechartview extends View {
 			// getY() - 200, hiddenpaint);
 			jianjux = jianjux + xlong / xnumber.length;
 		}
-		// »­×ø±êyÉÏµÄ×Ö
+		// ç”»åæ ‡yä¸Šçš„å­—
 		for (int i = 0; i < ynumber; i++) {
 			if (maSxy != 0) {
 				canvas.drawText(scale + "", centrex - 30, centrey - jianjuy + 5,
 						textpaint);
 				scale=scale+maSxy/(float)ynumber;
-				
+
 			}else{
-			canvas.drawText(jianjuy + "", centrex - 30, centrey - jianjuy + 5,
-					textpaint);
-			
+				canvas.drawText(jianjuy + "", centrex - 30, centrey - jianjuy + 5,
+						textpaint);
+
 			}
 			if (isGone) {
-				// »­ĞéÏß
+				// ç”»è™šçº¿
 				Path path = new Path();
 				path.moveTo(centrex, centrey - jianjuy);
 				path.lineTo(centrex + xlong, centrey - jianjuy);
@@ -199,18 +199,18 @@ public class linechartview extends View {
 			// jianjuy, hiddenpaint);
 			jianjuy = jianjuy + ylong / ynumber;
 		}
-		// »­Íø¸ñÏß
+		// ç”»ç½‘æ ¼çº¿
 
 		// canvas.save();
-		// »­ÕÛÏß
-		// ×ø±êµãµÄ¼ÆËã
+		// ç”»æŠ˜çº¿
+		// åæ ‡ç‚¹çš„è®¡ç®—
 
 		paint.setStrokeWidth(2);
 		paint.setColor(Color.RED);
 		if (mListPoint != null && mListPoint.size() > 0) {
 			for (int i = 1; i < mListPoint.size(); i++) {
 
-				// »æÖÆÕÛµãÔ­µã
+				// ç»˜åˆ¶æŠ˜ç‚¹åŸç‚¹
 
 				canvas.drawCircle(centrex, (centrey
 						- mListPoint.get(0).get("key_y")*comparingrule), 3, paint);
@@ -218,11 +218,11 @@ public class linechartview extends View {
 				canvas.drawCircle(centrex + drawx * i, (centrey
 						- mListPoint.get(i).get("key_y")*comparingrule), 3, paint);
 
-			
-				// »æÖÆÕÛÏß
-				canvas.drawLine(centrex + drawx * (i - 1), 
+
+				// ç»˜åˆ¶æŠ˜çº¿
+				canvas.drawLine(centrex + drawx * (i - 1),
 						(centrey- mListPoint.get(i - 1).get("key_y")*comparingrule),
-						centrex + drawx* i, 
+						centrex + drawx* i,
 						(centrey- mListPoint.get(i).get("key_y")*comparingrule), paint);
 				Log.i("view", comparingrule + "ssss");
 
